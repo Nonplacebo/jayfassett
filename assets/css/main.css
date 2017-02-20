@@ -1,8 +1,7 @@
-content:url("/assets/Images/GirlSmoking.jpg") {
-  filter: contrast(5) brightness(2);
-}
 
-.landing { display: flex; flex-direction: column; background-size: cover; background-image: url("/assets/Images/GirlSmoking.jpg"); height: 100vh; width: 100%; }
+.landing { display: flex; flex-direction: column; background-size: cover; background-image: content:url("/assets/Images/GirlSmoking.jpg") {
+  filter: contrast(5) brightness(2);
+}; height: 100vh; width: 100%; }
 
 .landing ul { padding-top: 17.5px; justify-content: flex-end; display: inline-block; list-style-type: none; }
 
