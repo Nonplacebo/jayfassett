@@ -1,13 +1,3 @@
-.overlay {
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: rgba(0,0,0,0.7);
-}
-
 .landing { display: flex; flex-direction: column; background-size: cover; background-image: url("/assets/Images/GirlSmoking.jpg"); height: 100vh; width: 100%; }
 
 .landing ul { padding-top: 17.5px; justify-content: flex-end; display: inline-block; list-style-type: none; }
