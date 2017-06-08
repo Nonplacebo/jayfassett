@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#cycler {
+height: 100%;
+width: 100%;
+position: absolute;
+overflow: hidden;
+}
+
+#cycler img {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#cycler img.active {
+  z-index: 3;
+}
+
+.navbar {
+  top: 30%;
+  left: 40%;
+  font-family: 'Indie Flower', cursive;
+  color: #FF8E34;
+  position: absolute;
+  z-index: 5;
+}
+
+.navbar ul {
+  margin-left: 25px;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  padding-right: 20px;
+  font-size: 20px;
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #FF8E34;
+  transition: color 0.5S;
+}
+
+.navbar ul li a:hover {
+  font-weight: 600;
+  color: #2AE57B;
+  transition: color 0.3s;
+}
+
+.header {
+  display: flex;
+}
+
+.headerEh {
+  color: #FF8E34;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+  margin: 0px;
+}
+
+.headerEh a {
+  text-decoration: none;
+  color: #FF8E34;
+  transition: color 1s;
+}
+
+.headerEh a:hover {
+  color: #2AE57B;
+  transition: color 0.3s;
+}
+
+.header svg {
+  border: solid 2px #2AE57B;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding-top: 20px;
+  float: right;
+  display: inline;
+  height: 120px;
+  width: 120px;
+  margin-bottom: -15px;
+  margin-top: -10px;
+  stroke: #FF8E34;
+  stroke-width: 13;
+  background: rgba(0,0,0,0.1);
+}
+
+.st0  {
+  fill:none;
+  stroke: inherit;
+  stroke-width:inherit;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  top: 100%;
+  font-family: 'Indie Flower', cursive;
+  display: inline;
+  width: 100%;
+  background-color: #2a82e5;
+}
+
+.footer ul {
+  margin-left: 25px;
+  list-style-type: none;
+}
+
+.footer ul li {
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  display: inline;
+}
+
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5S;
+}
+
+.footer ul li a:hover {
+  font-weight: 600;
+  color: #2AE57B;
+  transition: color 0.3s;
+}
+
+.footer p {
+  font-family: arial;
+  float: left;
+  padding-left: 10px;
+}
