@@ -149,7 +149,7 @@ transition: color, 0.6s;
 .blog {
   margin-top: 40px;
   display: block;
-  border: solid 2px #2ae57b;
+  border-bottom: solid 5px #2ae57b;
   margin-bottom: 20px;
   overflow: hidden;
   transition: background-color, 0.3s;
@@ -186,6 +186,24 @@ transition: color, 0.6s;
 }
 
 #blog1 h1 {
+}
+
+ #more {
+   margin-top: 10px;
+   margin-bottom: 30px;
+  float: right;
+  color: #c45c09;
+  font-size: 34px;
+  width: 170px;
+  font-family: 'Bubbler One', sans-serif;
+  border: solid 2px #2be57c;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+
+#more:hover {
+  background-color: white;
+  transition: background-color 0.2s;
 }
 
 .footer {
