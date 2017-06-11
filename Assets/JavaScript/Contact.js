@@ -23,4 +23,8 @@ $("#name").on("click", function(){
   document.getElementById("name").value = "";
 });
 
+$("#email").on("click", function(){
+  document.getElementById("email").value = "";
+});
+
 });
